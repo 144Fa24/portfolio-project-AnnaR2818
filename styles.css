@@ -1,0 +1,109 @@
+*/
+Name: Anna Ringel
+Date: 10/02/2024
+File Name: styles.css
+/*
+ 
+/* CSS Reset */
+body, header, nav, main, footer, img, h1, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for images */
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Style rules for header content */
+
+header {
+    text-align: center;
+    font-size: 5em;
+    color:#0000ff
+}
+
+header h1 {
+    font-style: italic;
+}
+
+/*Style rules for navigation area */
+
+nav {
+    background-color: #808080;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 3em;
+}
+
+nav li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 1em 2em;
+    text-decoration: none;
+}
+
+/*Style rules for main content */
+
+main {
+    padding: 3%;
+    background-color: #808080;
+    overflow: auto;
+    font-family: Times New Roman, Times, Serif;
+}
+
+main p { 
+    font-size: 2.30em;
+}
+
+.action {
+    font-size: 2.20em;
+    color:#0000ff;
+    font-weight: bold;
+}
+
+#info {
+    clear:left;
+    background-color: #000000;
+    padding: 2% 3%;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact a {
+    color: #0000ff
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.map {
+    border: 7px solid #0000ff;
+}
+
+/* Style rules for footer content */
+
+footer {
+    text-align: left;
+    font-size: 1.20em;
+    clear: center;
+}
+
+footer a {
+    color:#808080;
+    text-decoration: none;
+}
+
